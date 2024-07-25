@@ -1,0 +1,55 @@
+/* styles.css */
+
+:root {
+  --primary-color: #3498db; /* blue */
+  --secondary-color: #f1c40f; /* yellow */
+  --background-color: #f9f9f9; /* light gray */
+  --text-color: #333; /* dark gray */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.projects {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--background-color); /* Use the root variable */
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 40px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-color: var(--primary-color); /* Use the root variable */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Increase the shadow intensity */
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px; /* Add a slight curve to the image corners */
+}
+
+.project-card a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.project-card a:hover {
+  color: var(--secondary-color);
+}

@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Project 1",
+      "description": "This is a brief description of Project 1.",
+      "image": "project1.jpeg",
+      "link": "https://example.com/project1"
+    },
+    {
+      "title": "Project 2",
+      "description": "This is a brief description of Project 2.",
+      "image": "project2.jpeg",
+      "link": "https://example.com/project2"
+    },
+    {
+        "title": "Mimi",
+        "description": "Reminder app for iOS and watchOS, still in progress",
+        "image": "project3.jpeg",
+        "link": "https://example.com/project3"
+      },
+      {
+        "title": "YSL",
+        "description": "A MERN stack app that I'm working on, its functionality is based upon the sale of land deeds in the state of Baja California, in Mexico",
+        "image": "project4.jpeg",
+        "link": "https://example.com/project4"
+      }
+  ]
