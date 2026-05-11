@@ -1,6 +1,7 @@
 /* this file establishes the base tailwind configuration and css variables, serving as the single source of truth for our global design tokens. */
 
 @import "tailwindcss";
+@plugin "@tailwindcss/typography"; 
 
 @theme {
   /* defining custom theme variables for tailwind classes (e.g., bg-primary) */
